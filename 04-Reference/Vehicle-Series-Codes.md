@@ -1,6 +1,6 @@
 # Vehicle Series Codes
 
-> [!INFO] Использование
+> [!INFO]
 > Таблица соответствия кодов серий и моделей для выбора в E-Sys.
 
 [SALAPA-Element](https://www.thegarageegy.com/pages/vo)

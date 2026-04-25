@@ -1,6 +1,6 @@
 # Trunk (HKL)
 
-> [!INFO] Блок управления
+> [!IMPORTANT]
 > **HKL** — Heckklappen (багажник), **HKFM** — модуль привода
 
 ---
