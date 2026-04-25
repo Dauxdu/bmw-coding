@@ -83,14 +83,3 @@
 
 - [Service Intervals (FA Codes)](04-Reference/Service-Intervals.md) — интервалы ТО
 - [Vehicle Series Codes](04-Reference/Vehicle-Series-Codes.md) — коды серий и моделей
-
----
-
-## Contributing
-
-Pull requests приветствуются! Перед внесением изменений:
-
-1. Протестируйте кодировки на своем автомобиле
-2. Укажите модель и год выпуска
-3. Добавьте скриншоты до/после
-4. Опишите возможные побочные эффекты
