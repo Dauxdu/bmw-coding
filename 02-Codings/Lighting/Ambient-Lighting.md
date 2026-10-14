@@ -12,7 +12,7 @@
 ```text
 Блок: FEM_BODY → 3070
 Параметры:
-- Ambiente_Helligkeit → user        // Яркость подсветки (HEX, default: 64 = 100%)
+- Ambiente_Helligkeit → user          // Яркость подсветки (HEX, default: 64 = 100%)
 - Ambiente_Nachfuehrung → nicht_aktiv // Отвязка от яркости KOMBI (default: aktiv)
 ```
 

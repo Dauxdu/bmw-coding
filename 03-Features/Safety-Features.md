@@ -13,15 +13,15 @@
 ```text
 Блок: ACSM → 3000
 Параметры:
-- SeatBeltReminder_SBR_Fahrer → nicht_aktiv    // Напоминание водителя (default: aktiv)
-- SeatBeltReminder_SBR_Beifahrer → nicht_aktiv // Напоминание пассажира (default: aktiv)
-- SBR_FA_GWF_SBR_FA → nicht_aktiv              // Напоминание водителя (альт.)
-- SBR_BF_GWF_SBR_BF → nicht_aktiv              // Напоминание пассажира (альт.)
-- Initialwarnung_GWF_IW → nicht_aktiv          // Гонг при запуске (default: aktiv)
-- Gurtzustandsanzeige_Fahrer_GWF_GZA_FA → nicht_aktiv   // Значок ремня водителя
+- SeatBeltReminder_SBR_Fahrer → nicht_aktiv              // Напоминание водителя (default: aktiv)
+- SeatBeltReminder_SBR_Beifahrer → nicht_aktiv           // Напоминание пассажира (default: aktiv)
+- SBR_FA_GWF_SBR_FA → nicht_aktiv                        // Напоминание водителя (альт.)
+- SBR_BF_GWF_SBR_BF → nicht_aktiv                        // Напоминание пассажира (альт.)
+- Initialwarnung_GWF_IW → nicht_aktiv                    // Гонг при запуске (default: aktiv)
+- Gurtzustandsanzeige_Fahrer_GWF_GZA_FA → nicht_aktiv    // Значок ремня водителя
 - Gurtzustandsanzeige_Beifahrer_GWF_GZA_BF → nicht_aktiv // Значок ремня пассажира
-- SBR_PreWarning_Fahrer → nicht_aktiv          // Звук при отстёгивании (водитель)
-- SBR_PreWarning_Beifahrer → nicht_aktiv       // Звук при отстёгивании (пассажир)
+- SBR_PreWarning_Fahrer → nicht_aktiv                    // Звук при отстёгивании (водитель)
+- SBR_PreWarning_Beifahrer → nicht_aktiv                 // Звук при отстёгивании (пассажир)
 
 Блок: ACSM → 3001
 Параметры:

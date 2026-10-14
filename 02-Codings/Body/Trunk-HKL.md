@@ -59,8 +59,8 @@
 ```text
 Блок: HKL → 3010
 Параметры:
-- HKL_ROCKERSWITCHPOS2_LONGPRESS_CLOSE → 00          // Без удержания (кнопка салона)
-- HKL_ROCKERSWITCHPOS2_DELAY_CLOSE → 00, 00          // Без задержки (кнопка салона)
+- HKL_ROCKERSWITCHPOS2_LONGPRESS_CLOSE → 00            // Без удержания (кнопка салона)
+- HKL_ROCKERSWITCHPOS2_DELAY_CLOSE → 00, 00            // Без задержки (кнопка салона)
 - HKL_REMOTECONTROLLIFTGATEBUTTON_LONGPRESS_CLOSE → 00 // Без удержания (ключ)
 - HKL_REMOTECONTROLLIFTGATEBUTTON_DELAY_CLOSE → 00, 00 // Без задержки (ключ)
 ```

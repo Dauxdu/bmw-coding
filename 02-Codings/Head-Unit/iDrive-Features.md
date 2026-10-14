@@ -44,10 +44,10 @@
 ```text
 Блок: HU_NBT → 3000
 Параметры:
-- ROUTE_FLIGHT → aktiv              // Симулятор маршрута «Route preview» — Part 1
+- ROUTE_FLIGHT → aktiv               // Симулятор маршрута «Route preview» — Part 1
 - NAVI_SCROLLING_ALONG_ROUTE → aktiv // Симулятор маршрута — Part 2
-- NAVI_ROAD_PREVIEW → aktiv         // «Route Info» (список манёвров)
-- NAVI_AUTOZOOM → aktiv             // Авто-зум при приближении к повороту
+- NAVI_ROAD_PREVIEW → aktiv          // «Route Info» (список манёвров)
+- NAVI_AUTOZOOM → aktiv              // Авто-зум при приближении к повороту
 
 Блок: HU_NBT → 3001
 Параметры:

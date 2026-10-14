@@ -13,12 +13,12 @@
 ```text
 Блок: HU_NBT → 3000
 Параметры:
-- SPEEDLOCK_X_KMH_MIN → werte=FF              // Снять блокировку видео (мин. скорость)
-- SPEEDLOCK_X_KMH_MAX → werte=FF              // Снять блокировку видео (макс. скорость)
-- VIDEO_HANDBRAKE → nicht_aktiv               // Убрать требование ручника
-- VIDEO_FRONT_LOCKED → nicht_aktiv            // Убрать Front Lock
-- VIDEO_SPEEDLOCK_CONDITION → none            // Убрать условие скорости
-- SPEEDLOCK_FREISCHALTMENU → aktiv            // Меню разблокировки в Media
+- SPEEDLOCK_X_KMH_MIN → werte=FF               // Снять блокировку видео (мин. скорость)
+- SPEEDLOCK_X_KMH_MAX → werte=FF               // Снять блокировку видео (макс. скорость)
+- VIDEO_HANDBRAKE → nicht_aktiv                // Убрать требование ручника
+- VIDEO_FRONT_LOCKED → nicht_aktiv             // Убрать Front Lock
+- VIDEO_SPEEDLOCK_CONDITION → none             // Убрать условие скорости
+- SPEEDLOCK_FREISCHALTMENU → aktiv             // Меню разблокировки в Media
 - SERVICES_MESSAGES_SPEEDLOCK_CONDITION → none // Сообщения сервисов на ходу
 - OFFICE_MESSAGES_SPEEDLOCK_CONDITION → none   // Офисные сообщения на ходу
 ```
@@ -28,8 +28,8 @@
 ```text
 Блок: HU_CIC → 3000
 Параметры:
-- SPEEDLOCK_X_KMH_MIN → werte=FF    // Снять блокировку видео (мин)
-- SPEEDLOCK_X_KMH_MAX → werte=FF    // Снять блокировку видео (макс)
+- SPEEDLOCK_X_KMH_MIN → werte=FF         // Снять блокировку видео (мин)
+- SPEEDLOCK_X_KMH_MAX → werte=FF         // Снять блокировку видео (макс)
 - VIDEO_NUR_MIT_HANDBREMSE → nicht_aktiv // Убрать требование ручника
 ```
 

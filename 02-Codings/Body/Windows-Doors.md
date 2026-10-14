@@ -117,7 +117,7 @@
 ```text
 Блок: FEM_BODY → 3060
 Параметры:
-- QUITTBLK_SICHERN_ANZAHL → werte=X-1    // Мигания при блокировке (default: 01 = 2 мигания)
+- QUITTBLK_SICHERN_ANZAHL → werte=X-1      // Мигания при блокировке (default: 01 = 2 мигания)
 - QUITTBLK_ENTSCHAERFEN_ANZAHL → werte=X-1 // Мигания при разблокировке (default: 02 = 3 мигания)
 ```
 

@@ -22,11 +22,11 @@
 ```text
 Блок: ICM → 3000
 Параметры:
-- IcmKod_B_S2TBA → verbaut              // Спортивная логика АКПП (default: nicht_verbaut)
-- ICMKOD_B_SPORTLENKUNG → aktiv         // Режим Sport+ (default: nicht_aktiv)
-- ICMKOD_B_InitEco → verbaut            // Eco Pro по умолчанию при запуске (default: nicht_verbaut)
+- IcmKod_B_S2TBA → verbaut               // Спортивная логика АКПП (default: nicht_verbaut)
+- ICMKOD_B_SPORTLENKUNG → aktiv          // Режим Sport+ (default: nicht_aktiv)
+- ICMKOD_B_InitEco → verbaut             // Eco Pro по умолчанию при запуске (default: nicht_verbaut)
 - ICMKOD_B_SPORTINDIVIDUALISIERBAR → ein // Настройка Sport в iDrive — Part 2 (default: aus)
-- C_Abstandsstufe_init → Stufe_1        // Минимальная дистанция ACC при запуске (default: Stufe_4)
+- C_Abstandsstufe_init → Stufe_1         // Минимальная дистанция ACC при запуске (default: Stufe_4)
 
 Блок: EGS → 3000
 Параметры:

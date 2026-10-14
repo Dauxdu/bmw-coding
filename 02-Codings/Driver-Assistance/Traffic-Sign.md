@@ -13,8 +13,8 @@
 ```text
 Блок: KAFAS2 → 3000
 Параметры:
-- COUNTRY_VARIATION → ECE          // Регион: европейский стандарт (default: зависит от рынка)
-- COD_CAM_ONLY → camera_only       // Только камера, без данных навигации
+- COUNTRY_VARIATION → ECE            // Регион: европейский стандарт (default: зависит от рынка)
+- COD_CAM_ONLY → camera_only         // Только камера, без данных навигации
 - COUNTRY_CODING_DISPLAY → ECE_white // Белый фон для отображения знаков
 ```
 
