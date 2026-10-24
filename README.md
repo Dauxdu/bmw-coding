@@ -71,6 +71,7 @@
 - [Adaptive Lighting](02-Codings/Lighting/Adaptive-Lighting.md)
 - [Ambient Lighting](02-Codings/Lighting/Ambient-Lighting.md)
 - [Daytime Running Lights](02-Codings/Lighting/Daytime-Running-Lights.md)
+- [Exterior Lights](02-Codings/Lighting/Exterior-Lights.md)
 - [Fog Lights](02-Codings/Lighting/Fog-Lights.md)
 - [High Beam Assistant](02-Codings/Lighting/High-Beam-Assistant.md)
 - [Turn Signals](02-Codings/Lighting/Turn-Signals.md)
