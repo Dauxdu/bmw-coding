@@ -1,15 +1,17 @@
-# Отказ от ответственности
+**English** | [Русский](DISCLAIMER.ru.md)
 
-## Важная информация
+# Disclaimer
 
-1. **Риск повреждения**: Кодирование может привести к повреждению электронных систем автомобиля
-2. **Гарантия**: Внесение изменений может аннулировать гарантию
-3. **Законность**: Некоторые изменения могут быть незаконны в вашей стране
-4. **Бэкапы**: Всегда делайте резервные копии перед кодированием
-5. **Тестирование**: Все кодировки вы используете на свой страх и риск
+## Important Information
 
-## Рекомендации
+1. **Risk of damage**: Coding may damage the vehicle's electronic systems
+2. **Warranty**: Making changes may void the warranty
+3. **Legality**: Some changes may be illegal in your country
+4. **Backups**: Always make backups before coding
+5. **Testing**: You use all codings at your own risk
 
-- Всегда читайте документацию полностью
-- Проверяйте совместимость с вашей моделью
-- Имейте под рукой способ восстановления
+## Recommendations
+
+- Always read the documentation in full
+- Check compatibility with your model
+- Have a way to restore the original configuration
