@@ -51,6 +51,7 @@
 Параметры:
 - LEGAL_DISCLAIMER_TIME → kein_ld        // Убрать дисклеймер при запуске iDrive
 - MACRO_CAM_LEGALDISCLAIMER → kein_ld    // Убрать дисклеймер камеры/PDC
+- MACRO_NIVICAM_LDISCLAIMER → kein_ld    // Убрать дисклеймер Night Vision (при наличии 6UK)
 ```
 
 ---

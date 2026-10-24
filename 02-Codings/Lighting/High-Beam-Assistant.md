@@ -7,21 +7,27 @@
 
 ---
 
-## Добавление опции 5AC в FA (VO Coding)
+## Активация 5AC (VO Coding)
 
 ### Процедура для F-серии
 
 ```text
 1. Открыть FA автомобиля в E-Sys
 2. Удалить опцию 5AP (если присутствует)
-3. Нажать «Calculate FP»
-4. Закодировать блоки: FEM_BODY, FLA/KAFAS2
+3. Добавить опцию 5AC
+4. Нажать «Calculate FP»
+5. Закодировать блоки: FEM_BODY, FLA/KAFAS2
 ```
 
 > [!NOTE]
 > Рекомендуется также активировать Variable Light Distribution
 > (удалить 8S4 из FA → VO Code FEM_BODY) для полноценной работы
 > Active High Beam Assistant.
+
+> [!WARNING]
+> Бесслепящий дальний свет требует адаптивных фар. Если в KAFAS2
+> `CAR_WITH_AHL_CURVE_LIGHTS = no_AHL (00)`, функция, скорее всего,
+> не заработает. Для F30 с завода `GLAREFREE_HIGHBEAM_ENABLED = 00`.
 
 ---
 
@@ -32,7 +38,7 @@
 ```text
 Блок: KAFAS2 → 3050
 Параметры:
-- SPEED_SWITCHING_HIGH_BEAMS_ON → 28  // Включение дальнего при 40 км/ч (HEX, default: 28)
+- SPEED_SWITCHING_HIGH_BEAMS_ON → 28  // Включение дальнего при 40 км/ч (HEX, default: 28 для всех рынков)
 - SPEED_SWITCHING_HIGH_BEAMS_OFF → 1E // Выключение дальнего при 30 км/ч (HEX, default: 1E)
 ```
 
@@ -70,11 +76,7 @@
 ```text
 Блок: KAFAS2 → 3015
 Параметры:
-- FLA_ON_OFF → aktiv // Включение функции FLA
-
-Блок: FEM_BODY → 3050
-Параметры:
-- FLA_AUTO_AKTIV → aktiv // Авто-режим дальнего по умолчанию (default: nicht_aktiv)
+- FLA_ON_OFF → FLA_on // Включение функции FLA (default: FLA_on = 01)
 ```
 
 ---

@@ -67,6 +67,28 @@
 
 ---
 
+## Задние противотуманные фонари
+
+### Настройка параметров для F-серии
+
+```text
+Блок: FEM_BODY → 3060
+Параметры:
+- NSL_Verbaut → Verbaut // Кнопка задних ПТФ — Part 1 (default: nicht_verbaut)
+
+Блок: REM → 3063
+Параметры:
+- Mapping_Nebelschlussl_L_output → nsl_l               // Задний левый — Part 2 (default: off)
+- Mapping_Nebelschlussl_L_Function → nebelschlusslicht // Задний левый — Part 3
+- Mapping_Nebelschlussl_R_output → nsl_r               // Задний правый — Part 4 (default: off)
+- Mapping_Nebelschlussl_R_Function → nebelschlusslicht // Задний правый — Part 5
+```
+
+> [!NOTE]
+> Требуется рабочая кнопка задних ПТФ на блоке переключателя света.
+
+---
+
 ## Замечания и важные моменты (Troubleshooting)
 
 | Проблема / Ошибка                  | Как проверить настройку / Решение                      |

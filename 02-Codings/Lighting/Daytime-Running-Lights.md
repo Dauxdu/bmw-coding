@@ -106,6 +106,33 @@
 > При включённых ДХО загораются задние габаритные огни для лучшей
 > заметности автомобиля сзади.
 
+### Яркость задних фонарей в режиме ДХО
+
+```text
+Блок: REM → 3062
+Параметры:
+- MAPPING_TAGFAHRL_H_L_PWM_LEVEL_1 → 64 // Яркость заднего левого с ДХО (HEX, 64 = 100%)
+- MAPPING_TAGFAHRL_H_R_PWM_LEVEL_1 → 64 // Яркость заднего правого с ДХО (HEX, 64 = 100%)
+```
+
+---
+
+## ДХО в Welcome Light
+
+### Настройка параметров для F-серии
+
+```text
+Блок: FEM_BODY
+Параметры:
+- MAPPING_TAGFAHRL_V_L_PART_OF_WL → active // Передний левый ДХО в Welcome Light
+- MAPPING_TAGFAHRL_V_R_PART_OF_WL → active // Передний правый ДХО в Welcome Light
+
+Блок: REM
+Параметры:
+- MAPPING_TAGFAHRL_H_L_PART_OF_WL → active // Задний левый в Welcome Light
+- MAPPING_TAGFAHRL_H_R_PART_OF_WL → active // Задний правый в Welcome Light
+```
+
 ---
 
 ## Замечания и важные моменты (Troubleshooting)
